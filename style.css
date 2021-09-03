@@ -1,5 +1,6 @@
 body{
     font-family: 'Azeret Mono', monospace;
+    margin: 0%;
 }
 h1{
     font-size: 50px;
@@ -15,4 +16,19 @@ h1{
 }
 .half-width img{
     width: 80%;
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, blue, rgb(165, 14, 202));
+    color: azure;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 700;
 }
